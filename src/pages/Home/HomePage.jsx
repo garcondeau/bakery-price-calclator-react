@@ -1,12 +1,13 @@
 import React from 'react';
-import recipes from "../../utils/consts";
+
+import HomeWrapper from "../../components/Home/HomeWrapper";
+import {StyledTitle} from "../../components/elements/title/styledTitle";
 
 const HomePage = () => {
     return (
         <>
-            {
-                recipes.macaron
-            }
+            <StyledTitle>home page</StyledTitle>
+            <HomeWrapper/>
         </>
     )
 }
